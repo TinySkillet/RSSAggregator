@@ -25,11 +25,11 @@ A high-performance RSS feed aggregator built with Go that fetches and aggregates
 
 ## Environment Configuration
 
-Create a `.env` file in the root directory with the following configuration:
+Create a `.env` file in the root directory with your port and database connection string:
 
 ```env
 PORT=6000
-DBCONN_STR=postgres://postgres:goapi@localhost:3000/postgres?sslmode=disable
+DBCONN_STR=postgres://username:password@localhost:PORT/dbname?sslmode=disable
 ```
 
 ### Environment Variables
