@@ -29,7 +29,7 @@ Create a `.env` file in the root directory with your port and database connectio
 
 ```env
 PORT=6000
-DBCONN_STR=postgres://username:password@localhost:PORT/dbname?sslmode=disable
+DBCONN_STR=postgres://username:password@host:PORT/dbname?sslmode=disable
 ```
 
 ### Environment Variables
